@@ -1,0 +1,26 @@
+affine==2.3.0
+attrs==21.2.0
+certifi==2021.10.8
+click==8.0.3
+click-plugins==1.1.1
+cligj==0.7.2
+colorama==0.4.4
+cycler==0.11.0
+GDAL @ file:///Users/Downloads/GDAL-3.3.3-cp38-cp38-win_amd64.whl
+joblib==1.1.0
+kiwisolver==1.3.2
+matplotlib==3.4.3
+numpy==1.21.3
+opencv-python==4.5.4.58
+pandas==1.3.4
+Pillow==8.4.0
+pyparsing==3.0.4
+python-dateutil==2.8.2
+pytz==2021.3
+rasterio @ file:///Users/Downloads/rasterio-1.2.10-cp38-cp38-win_amd64.whl
+scikit-learn==1.0.1
+scipy==1.7.1
+six==1.16.0
+snuggs==1.4.7
+threadpoolctl==3.0.0
+wincertstore==0.2

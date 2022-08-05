@@ -2,7 +2,6 @@
 # In each city folder creates a city_name_features.csv file with 125 features
 import glob
 import os
-import cv2
 
 import numpy as np
 import pandas as pd
@@ -77,8 +76,10 @@ def sen2_features(all_patches):
 
     # iterate over each sen2 patch
     for each_patch in all_patches:
-        sen2_array = cv2.imread(each_patch)  # read the patch
-        r, g, b = sen2_array[:, :, 0], sen2_array[:, :, 1], sen2_array[:, :, 2]  # get the r, g, b bands
+        # get the r, g, b bands
+        r = raster2array(each_patch, 4)
+        g = raster2array(each_patch, 3)
+        b = raster2array(each_patch, 2)
         # get features for r band
         sen2_mean_r, sen2_med_r, sen2_std_r, sen2_max_r, sen2_min_r = mean_med_std_max_min(band=r)
         # get features for g band

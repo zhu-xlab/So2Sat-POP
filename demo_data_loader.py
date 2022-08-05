@@ -119,31 +119,31 @@ if __name__ == "__main__":
 
     # load all the files and their corresponding population count and class for "sen2_rgb_autumn" data in "train" folder
     X_train_sen2_rgb_autumn,  y_train_count, y_train_class = get_fnames_labels(all_patches_mixed_train_part1,
-                                                                               data='sen2_rgb_autumn')
+                                                                               data='sen2autumn')
     # load all the files and their corresponding population count and class for "sen2_rgb_autumn" data in "test" folder
     X_test_sen2_rgb_autumn,  y_test_count, y_test_class = get_fnames_labels(all_patches_mixed_test_part1,
-                                                                            data='sen2_rgb_autumn')
+                                                                            data='sen2autumn')
 
     # load all the files and their corresponding population count and class for "sen2_rgb_summer" data in "train" folder
     X_train_sen2_rgb_summer,  y_train_count, y_train_class = get_fnames_labels(all_patches_mixed_train_part1,
-                                                                               data='sen2_rgb_summer')
+                                                                               data='sen2summer')
     # load all the files and their corresponding population count and class for "sen2_rgb_summer" data in "test" folder
     X_test_sen2_rgb_summer,  y_test_count, y_test_class = get_fnames_labels(all_patches_mixed_test_part1,
-                                                                            data='sen2_rgb_summer')
+                                                                            data='sen2summer')
 
     # load all the files and their corresponding population count and class for "sen2_rgb_spring" data in "train" folder
     X_train_sen2_rgb_spring,  y_train_count, y_train_class = get_fnames_labels(all_patches_mixed_train_part1,
-                                                                               data='sen2_rgb_spring')
+                                                                               data='sen2spring')
     # load all the files and their corresponding population count and class for "sen2_rgb_spring" data in "test" folder
     X_test_sen2_rgb_spring,  y_test_count, y_test_class = get_fnames_labels(all_patches_mixed_test_part1,
-                                                                            data='sen2_rgb_spring')
+                                                                            data='sen2spring')
 
     # load all the files and their corresponding population count and class for "sen2_rgb_winter" data in "train" folder
     X_train_sen2_rgb_winter,  y_train_count, y_train_class = get_fnames_labels(all_patches_mixed_train_part1,
-                                                                               data='sen2_rgb_winter')
+                                                                               data='sen2winter')
     # load all the files and their corresponding population count and class for "sen2_rgb_winter" data in "test" folder
     X_test_sen2_rgb_winter,  y_test_count, y_test_class = get_fnames_labels(all_patches_mixed_test_part1,
-                                                                            data='sen2_rgb_winter')
+                                                                            data='sen2winter')
 
     # load all the files and their corresponding population count and class for "viirs" data in "train" folder
     X_train_viirs,  y_train_count, y_train_class = get_fnames_labels(all_patches_mixed_train_part1, data='viirs')
